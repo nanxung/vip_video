@@ -24,11 +24,12 @@ class Ui_MainWindow(object):
         self.label.setObjectName("label")
         self.vipvideo = QtWidgets.QRadioButton(self.centralWidget)
         self.vipvideo.setGeometry(QtCore.QRect(120, 20, 117, 21))
-        self.vipvideo.setChecked(True)
+        #self.vipvideo.setChecked(True)
         self.vipvideo.setObjectName("vipvideo")
         self.no_name = QtWidgets.QRadioButton(self.centralWidget)
         self.no_name.setGeometry(QtCore.QRect(270, 20, 117, 21))
         self.no_name.setObjectName("no_name")
+        self.no_name.setChecked(True)
         self.label_2 = QtWidgets.QLabel(self.centralWidget)
         self.label_2.setGeometry(QtCore.QRect(10, 60, 121, 41))
         self.label_2.setObjectName("label_2")
@@ -73,7 +74,7 @@ class Ui_MainWindow(object):
         self.label_2.setText(_translate("MainWindow", "输入vip视频地址"))
         self.play.setText(_translate("MainWindow", "播放"))
         self.label_3.setText(_translate("MainWindow", "大部分视频都能观看，如有不能观看的视频请刷新浏览器，或者更换解析站点。"))
-        self.label_4.setText(_translate("MainWindow", "                                         作者：南寻                                                    github地址 : https://github.com/nanxung/vip_video.git   码云地址 : https://git.oschina.net/nanxun/vip_video.git "))
+        self.label_4.setText(_translate("MainWindow", "作者：南寻\ngithub地址 : https://github.com/nanxung/vip_video.git\n码云地址 : https://git.oschina.net/nanxun/vip_video.git "))
 
 import pylogo_rc
 

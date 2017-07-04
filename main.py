@@ -27,9 +27,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.setupUi(self)
         self.urllist=['http://www.vipjiexi.com/tong.PHP?url=',
     'http://www.wmxz.wang/video.php?url=']
-        self.url=self.urllist[0]
+        self.url=self.urllist[1]
         self.center()
-        self.flag=0
+        self.flag=1
 
 
     def center(self):
