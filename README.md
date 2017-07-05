@@ -7,6 +7,8 @@ pyqt5<br>
 webbrowser
 
  <h2>怎么使用这个软件？ </h2><br>
+ <h4>目前已经打包为windows应用链接：http://pan.baidu.com/s/1hr8ZmEo 密码：u23y<br>
+双击打开运行就行<br></h4>
 进入项目目录 运行源代码：python main.py
 
 见到如下界面
